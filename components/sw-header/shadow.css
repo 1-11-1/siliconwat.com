@@ -2,6 +2,7 @@
 	color: black;
 	background-color: white;
 	padding: 10px;
+	--theme-color: darkcyan;
 }
 
 header {
@@ -35,6 +36,10 @@ h1 {
 	color: darkslategray;
 }
 
+a {
+	text-decoration: none;
+}
+
 img {
 	height: 5em;
 }
@@ -55,7 +60,7 @@ div {
 	width: auto;
 	border-top: 10px solid white;
 	transition: border-top-color 0.3s ease;
-	padding: 10px 25px 15px 10px;
+	padding: 10px 25px 25px 25px;
 	z-index: 1;
 }
 
@@ -68,11 +73,28 @@ menu {
 }
 
 ul:hover h3 {
-	color: darkcyan;
+	color: var(--theme-color);
 	cursor: pointer;
 }
 
 ul:hover div {
 	visibility: visible;
-	border-top-color: darkcyan;
+	border-top-color: var(--theme-color);
+}
+
+div h4 {
+	cursor: default;
+}
+
+menu li {
+	margin: 0 0 10px 10px;
+}
+
+menu li:hover {
+	color: var(--theme-color);
+	cursor: pointer;
+}
+
+.not-ready {
+	opacity: 0.3;
 }
