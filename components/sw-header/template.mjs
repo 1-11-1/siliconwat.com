@@ -12,6 +12,7 @@ template.innerHTML = `
                 <li>
                     <h3>Frontend Course</h3>
                     <div>
+                        <button>Join: Remote 12-Week Program</button>
                         <h4>Learn</h4>
                         <menu>
                             <li>Read Textbook on Medium</li>
@@ -22,7 +23,7 @@ template.innerHTML = `
                         <menu>
                             <li>Podcast: Motivation & Coding Music</li>
                             <li>Interactive Coding Exercises</li>
-                            <li>Pair Programming on Discord</li>
+                            <li>Remote Pair Programming on Discord</li>
                             <li>Students' Solo Projects on Codepen</li>
                         </menu>
                         <h4>Review</h4>
@@ -32,7 +33,7 @@ template.innerHTML = `
                             <li>Students' Writings on Medium</li>
                             <li>Mock Interviews on YouTube</li>
                         </menu>
-                        <h4>Advanced Course</h4>
+                        <h4>Bonus: Advanced Lessons</h4>
                         <menu>
                             <li>Web Audio Production</li>
                         </menu>
@@ -43,6 +44,7 @@ template.innerHTML = `
                 <li>
                     <h3>Backend Course</h3>
                     <div>
+                        <button>Join: Remote 12-Week Program</button>
                         <h4>Learn</h4>
                         <menu>
                             <li>Read Textbook on Medium</li>
@@ -53,7 +55,7 @@ template.innerHTML = `
                         <menu>
                             <li>Podcast: Motivation & Coding Music</li>
                             <li>Interactive Coding Exercises</li>
-                            <li>Pair Programming on Discord</li>
+                            <li>Remote Pair Programming on Discord</li>
                             <li>Students' Solo Projects on Codepen</li>
                         </menu>
                         <h4>Review</h4>
@@ -63,7 +65,7 @@ template.innerHTML = `
                             <li>Students' Writings on Medium</li>
                             <li>Mock Interviews on YouTube</li>
                         </menu>
-                        <h4>Advanced Course</h4>
+                        <h4>Bonus: Advanced Lessons</h4>
                         <menu>
                             <li>Quantum Physics & Computing</li>
                         </menu>
@@ -74,6 +76,7 @@ template.innerHTML = `
                 <li>
                     <h3>iOS Course</h3>
                     <div>
+                        <button>Join: Remote 12-Week Program</button>
                         <h4>Learn</h4>
                         <menu>
                             <li>Read Textbook on Medium</li>
@@ -84,7 +87,7 @@ template.innerHTML = `
                         <menu>
                             <li>Podcast: Motivation & Coding Music</li>
                             <li>Interactive Coding Exercises</li>
-                            <li>Pair Programming on Discord</li>
+                            <li>Remote Pair Programming on Discord</li>
                             <li>Students' Solo Projects on Codepen</li>
                         </menu>
                         <h4>Review</h4>
@@ -94,7 +97,7 @@ template.innerHTML = `
                             <li>Students' Writings on Medium</li>
                             <li>Mock Interviews on YouTube</li>
                         </menu>
-                        <h4>Advanced Course</h4>
+                        <h4>Bonus: Advanced Lessons</h4>
                         <menu>
                             <li>3D Animations</li>
                         </menu>
@@ -105,9 +108,9 @@ template.innerHTML = `
                 <li>
                     <h3>Graduation</h3>
                     <div>
+                        <button>Refund: Committment Deposits</button>
                         <h4>Awards</h4>
                         <menu>
-                            <li>Refund: Committment Deposits</li>
                             <li>Certificates of Completion</li>
                             <li>Graduation Diploma</li>
                         </menu>
@@ -123,6 +126,7 @@ template.innerHTML = `
                 <li>
                     <h3>Coupons</h3>
                     <div>
+                        <button>Apply for Discounts</button>
                         <h4>Inclusion & Diversity</h4>
                         <menu>
                             <li>Women & Minorities</li>
@@ -143,7 +147,9 @@ template.innerHTML = `
             <select onchange="changeLanguage(event)">
                 <option>English</option>
                 <option disabled>Khmer</option>
+                <option disabled>Spanish</option>
                 <option disabled>Russian</option>
+                <option disabled>Chinese</option>
             </select>
         </aside>
     </header>
