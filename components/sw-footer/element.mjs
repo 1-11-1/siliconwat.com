@@ -1,6 +1,6 @@
 import template from './template.mjs';
 
-class SwHeader extends HTMLElement {
+class SwFooter extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
@@ -10,10 +10,6 @@ class SwHeader extends HTMLElement {
     connectedCallback() {
         
     }
-
-    dispatch(component) {
-        this.dispatchEvent(new CustomEvent("sw", { bubbles: true, composed: true, detail: { component }}));
-    }
 }
 
-customElements.define("sw-header", SwHeader);
+customElements.define("sw-footer", SwFooter);

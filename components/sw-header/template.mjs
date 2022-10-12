@@ -7,6 +7,10 @@ template.innerHTML = `
             <a href="index.html"><img src="siliconwat.png"></a>
             <a href="index.html"><h1>Silicon Wat University</h1></a>
         </section>
+        <input id="menu-toggle" type="checkbox">
+        <label class='menu-button-container' for="menu-toggle">
+            <span class='menu-button'></span>
+        </label>
         <nav>
             <ul>
                 <li>
