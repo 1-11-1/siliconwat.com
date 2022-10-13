@@ -9,7 +9,6 @@ import "./components/sw-main/sw-coupon/element.mjs";
 import "./components/sw-main/element.mjs";
 
 import "./components/sw-footer/element.mjs";
-import "./components/sw-provider/element.mjs";
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}

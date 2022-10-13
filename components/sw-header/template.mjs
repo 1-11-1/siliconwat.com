@@ -16,30 +16,31 @@ template.innerHTML = `
                 <li>
                     <h3>Frontend Course</h3>
                     <div>
-                        <button onclick="this.getRootNode().host.dispatch('cohort', 'frontend')">Join: Remote 12-Week Cohort</button>
+                        <a href="#frontend-cohort"><button>Join: Remote Cohort Program</button></a>
                         <h4>Learn</h4>
                         <menu>
-                            <li>Watch Videos on Udemy</li>
-                            <li>Read Textbook on Medium</li>
-                            <li onclick="this.getRootNode().host.dispatch('quiz', 'frontend')">Take Quizzes to Check Understanding</li>
+                            <li><a>Watch Videos on Udemy</a></li>
+                            <li><a>Read Textbook on Medium</a></li>
+                            <li><a href="#frontend-quiz">Take Quizzes to Check Understanding</a></li>
                         </menu>
                         <h4>Practice</h4>
                         <menu>
-                            <li onclick="this.getRootNode().host.dispatch('podcast', 'frontend')">Podcast: Motivation & Coding Music</li>
-                            <li onclick="this.getRootNode().host.dispatch('code', 'frontend')">Interactive Coding Exercises</li>
-                            <li>Remote Pair Programming on Discord</li>
-                            <li>Students' Solo Projects on Codepen</li>
+                            <li><a href="#frontend-podcast">Podcast: Motivation & Coding Music</a></li>
+                            <li><a href="#frontend-code">Interactive Coding Exercises</a></li>
+                            <li><a>Remote Pair Programming on Discord</a></li>
+                            <li><a>Students' Solo Projects on Codepen</a></li>
                         </menu>
                         <h4>Review</h4>
                         <menu>
-                            <li>Live Demo: Music Apps</li>
-                            <li>Syntax Flashcards</li>
-                            <li>Students' Writings on Medium</li>
-                            <li>Mock Interviews on YouTube</li>
+                            <li><a>Live Demo: Music Apps</a></li>
+                            <li><a>Syntax Flashcards</a></li>
+                            <li><a>Students' Writings on Medium</a></li>
+                            <li><a>Mock Interviews on YouTube</a></li>
                         </menu>
                         <h4>Bonus: Advanced Lessons</h4>
                         <menu>
-                            <li>Web Audio Production</li>
+                            <li><a>React and Redux</a></li>
+                            <li><a>Web Audio Production</a></li>
                         </menu>
                     </div>
                 </li>
@@ -48,30 +49,31 @@ template.innerHTML = `
                 <li>
                     <h3>Backend Course</h3>
                     <div>
-                        <button onclick="this.getRootNode().host.dispatch('cohort', 'backend')">Join: Remote 12-Week Cohort</button>
+                        <a href="#backend-cohort"><button>Join: Remote Cohort Program</button></a>
                         <h4>Learn</h4>
                         <menu>
-                            <li>Watch Videos on Udemy</li>
-                            <li>Read Textbook on Medium</li>
-                            <li onclick="this.getRootNode().host.dispatch('quiz', 'backend')">Take Quizzes to Check Understanding</li>
+                            <li><a>Watch Videos on Udemy</a></li>
+                            <li><a>Read Textbook on Medium</a></li>
+                            <li><a href="#backend-quiz">Take Quizzes to Check Understanding</a></li>
                         </menu>
                         <h4>Practice</h4>
                         <menu>
-                            <li onclick="this.getRootNode().host.dispatch('podcast', 'backend')">Podcast: Motivation & Coding Music</li>
-                            <li onclick="this.getRootNode().host.dispatch('code', 'backend')">Interactive Coding Exercises</li>
-                            <li>Remote Pair Programming on Discord</li>
-                            <li>Students' Solo Projects on Replit</li>
+                            <li><a href="#backend-podcast">Podcast: Motivation & Coding Music</a></li>
+                            <li><a href="#backend-code">Interactive Coding Exercises</a></li>
+                            <li><a>Remote Pair Programming on Discord</a></li>
+                            <li><a>Students' Solo Projects on Replit</a></li>
                         </menu>
                         <h4>Review</h4>
                         <menu>
-                            <li>Live Demo: Music Apps</li>
-                            <li>Syntax Flashcards</li>
-                            <li>Students' Writings on Medium</li>
-                            <li>Mock Interviews on YouTube</li>
+                            <li><a>Live Demo: Music Apps</a></li>
+                            <li><a>Syntax Flashcards</a></li>
+                            <li><a>Students' Writings on Medium</a></li>
+                            <li><a>Mock Interviews on YouTube</a></li>
                         </menu>
                         <h4>Bonus: Advanced Lessons</h4>
                         <menu>
-                            <li>Quantum Physics & Computing</li>
+                            <li><a>Quantum Physics & Computing</a></li>
+                            <li><a>Kiitos Programming Language</a></li>
                         </menu>
                     </div>
                 </li>
@@ -80,30 +82,31 @@ template.innerHTML = `
                 <li>
                     <h3>iOS Course</h3>
                     <div>
-                        <button onclick="this.getRootNode().host.dispatch('cohort', 'ios')">Join: Remote 12-Week Cohort</button>
+                        <a href="#ios-cohort"><button>Join: Remote Cohort Program</button></a>
                         <h4>Learn</h4>
                         <menu>
-                            <li>Watch Videos on Udemy</li>
-                            <li>Read Textbook on Medium</li>
-                            <li onclick="this.getRootNode().host.dispatch('quiz', 'ios')">Take Quizzes to Check Understanding</li>
+                            <li><a>Watch Videos on Udemy</a></li>
+                            <li><a>Read Textbook on Medium</a></li>
+                            <li><a href="#ios-quiz">Take Quizzes to Check Understanding</a></li>
                         </menu>
                         <h4>Practice</h4>
                         <menu>
-                            <li onclick="this.getRootNode().host.dispatch('podcast', 'ios')">Podcast: Motivation & Coding Music</li>
-                            <li onclick="this.getRootNode().host.dispatch('code', 'ios')">Interactive Coding Exercises</li>
-                            <li>Remote Pair Programming on Discord</li>
-                            <li>Students' Solo Projects on GitHub</li>
+                            <li><a href="#ios-podcast">Podcast: Motivation & Coding Music</a></li>
+                            <li><a href="#ios-code">Interactive Coding Exercises</a></li>
+                            <li><a>Remote Pair Programming on Discord</a></li>
+                            <li><a>Students' Solo Projects on GitHub</a></li>
                         </menu>
                         <h4>Review</h4>
                         <menu>
-                            <li>Live Demo: Music Apps</li>
-                            <li>Syntax Flashcards</li>
-                            <li>Students' Writings on Medium</li>
-                            <li>Mock Interviews on YouTube</li>
+                            <li><a>Live Demo: Music Apps</a></li>
+                            <li><a>Syntax Flashcards</a></li>
+                            <li><a>Students' Writings on Medium</a></li>
+                            <li><a>Mock Interviews on YouTube</a></li>
                         </menu>
                         <h4>Bonus: Advanced Lessons</h4>
                         <menu>
-                            <li>3D Animations</li>
+                            <li><a>3D Animations</a></li>
+                            <li><a>Deep Learning</a></li>
                         </menu>
                     </div>
                 </li>
@@ -115,13 +118,14 @@ template.innerHTML = `
                         <button>Refund: Committment Deposits</button>
                         <h4>Awards</h4>
                         <menu>
-                            <li>Certificates of Completion</li>
-                            <li>Graduation Diploma</li>
+                            <li><a>Certificates of Completion</a></li>
+                            <li><a>Graduation Diploma</a></li>
                         </menu>
                         <h4>Apply</h4>
                         <menu>
-                            <li>Mock Technical Interviews</li>
-                            <li>Admission to Startup Incubator</li>
+                            <li><a>Mock Technical Interviews</a></li>
+                            <li><a>Work Bounties at THonly™</a></li>
+                            <li><a>Admission to Startup Incubator</a></li>
                         </menu>
                     </div>
                 </li>
@@ -130,30 +134,30 @@ template.innerHTML = `
                 <li>
                     <h3>Coupons</h3>
                     <div>
-                        <button onclick="this.getRootNode().host.dispatch('coupon')">Apply for Discounts</button>
+                        <a href="#coupon"><button>Apply for Discounts</button></a>
                         <h4>Inclusion & Diversity</h4>
                         <menu>
-                            <li>Women & Minorities</li>
-                            <li>Ukrainian Refugees</li>
-                            <li>Cambodian Genocide</li>
+                            <li><a>Women & Minorities</a></li>
+                            <li><a>Ukrainian Refugees</a></li>
+                            <li><a>Cambodian Genocide</a></li>
                         </menu>
                         <h4>Campuses</h4>
                         <menu>
-                            <li>Cambodia</li>
-                            <li class="not-ready">Ukraine</li>
-                            <li class="not-ready">United States</li>
+                            <li><a>Cambodia</a></li>
+                            <li><a>Ukraine</a></li>
+                            <li><a>United States</a></li>
                         </menu>
                     </div>
                 </li>
             </ul>
         </nav>
         <aside>
-            <select onchange="changeLanguage(event)">
-                <option>English</option>
-                <option disabled>Khmer</option>
-                <option disabled>Spanish</option>
-                <option disabled>Russian</option>
-                <option disabled>Chinese</option>
+            <select onchange="this.getRootNode().host.changeLanguage(event)">
+                <option value="en">English</option>
+                <option value="km" disabled>Khmer</option>
+                <option value="es" disabled>Spanish</option>
+                <option value="ru" disabled>Russian</option>
+                <option value="zh" disabled>Chinese</option>
             </select>
         </aside>
     </header>

@@ -10,7 +10,8 @@ template.innerHTML = `
     login with github?
     donate to get coupon!
     //
-    
+    12-week full time
+    24-week part time
 `;
 
 export default template;

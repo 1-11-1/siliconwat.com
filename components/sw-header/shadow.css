@@ -38,6 +38,7 @@ h1 {
 
 a {
 	text-decoration: none;
+	color: currentColor;
 }
 
 img {
@@ -62,6 +63,10 @@ div {
 	transition: border-top-color 0.3s ease;
 	padding: 15px 25px 25px 25px;
 	z-index: 1;
+}
+
+div > a {
+	text-align: center;
 }
 
 menu {
@@ -95,11 +100,12 @@ menu li:hover {
 	cursor: pointer;
 }
 
-menu li:not([onclick]) {
+menu li a:not([href]) {
 	opacity: 0.5;
 	cursor: default !important;
 }
 
+/*----------*/
 
 .menu-button-container {
 	display: none;
