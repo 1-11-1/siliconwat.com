@@ -16,17 +16,17 @@ template.innerHTML = `
                 <li>
                     <h3>Frontend Course</h3>
                     <div>
-                        <button>Join: Remote 12-Week Program</button>
+                        <button onclick="this.getRootNode().host.dispatch('cohort', 'frontend')">Join: Remote 12-Week Cohort</button>
                         <h4>Learn</h4>
                         <menu>
-                            <li>Read Textbook on Medium</li>
                             <li>Watch Videos on Udemy</li>
-                            <li>Take Quizzes to Check Understanding</li>
+                            <li>Read Textbook on Medium</li>
+                            <li onclick="this.getRootNode().host.dispatch('quiz', 'frontend')">Take Quizzes to Check Understanding</li>
                         </menu>
                         <h4>Practice</h4>
                         <menu>
-                            <li>Podcast: Motivation & Coding Music</li>
-                            <li>Interactive Coding Exercises</li>
+                            <li onclick="this.getRootNode().host.dispatch('podcast', 'frontend')">Podcast: Motivation & Coding Music</li>
+                            <li onclick="this.getRootNode().host.dispatch('code', 'frontend')">Interactive Coding Exercises</li>
                             <li>Remote Pair Programming on Discord</li>
                             <li>Students' Solo Projects on Codepen</li>
                         </menu>
@@ -48,19 +48,19 @@ template.innerHTML = `
                 <li>
                     <h3>Backend Course</h3>
                     <div>
-                        <button>Join: Remote 12-Week Program</button>
+                        <button onclick="this.getRootNode().host.dispatch('cohort', 'backend')">Join: Remote 12-Week Cohort</button>
                         <h4>Learn</h4>
                         <menu>
-                            <li>Read Textbook on Medium</li>
                             <li>Watch Videos on Udemy</li>
-                            <li>Take Quizzes to Check Understanding</li>
+                            <li>Read Textbook on Medium</li>
+                            <li onclick="this.getRootNode().host.dispatch('quiz', 'backend')">Take Quizzes to Check Understanding</li>
                         </menu>
                         <h4>Practice</h4>
                         <menu>
-                            <li>Podcast: Motivation & Coding Music</li>
-                            <li>Interactive Coding Exercises</li>
+                            <li onclick="this.getRootNode().host.dispatch('podcast', 'backend')">Podcast: Motivation & Coding Music</li>
+                            <li onclick="this.getRootNode().host.dispatch('code', 'backend')">Interactive Coding Exercises</li>
                             <li>Remote Pair Programming on Discord</li>
-                            <li>Students' Solo Projects on Codepen</li>
+                            <li>Students' Solo Projects on Replit</li>
                         </menu>
                         <h4>Review</h4>
                         <menu>
@@ -80,19 +80,19 @@ template.innerHTML = `
                 <li>
                     <h3>iOS Course</h3>
                     <div>
-                        <button>Join: Remote 12-Week Program</button>
+                        <button onclick="this.getRootNode().host.dispatch('cohort', 'ios')">Join: Remote 12-Week Cohort</button>
                         <h4>Learn</h4>
                         <menu>
-                            <li>Read Textbook on Medium</li>
                             <li>Watch Videos on Udemy</li>
-                            <li>Take Quizzes to Check Understanding</li>
+                            <li>Read Textbook on Medium</li>
+                            <li onclick="this.getRootNode().host.dispatch('quiz', 'ios')">Take Quizzes to Check Understanding</li>
                         </menu>
                         <h4>Practice</h4>
                         <menu>
-                            <li>Podcast: Motivation & Coding Music</li>
-                            <li>Interactive Coding Exercises</li>
+                            <li onclick="this.getRootNode().host.dispatch('podcast', 'ios')">Podcast: Motivation & Coding Music</li>
+                            <li onclick="this.getRootNode().host.dispatch('code', 'ios')">Interactive Coding Exercises</li>
                             <li>Remote Pair Programming on Discord</li>
-                            <li>Students' Solo Projects on Codepen</li>
+                            <li>Students' Solo Projects on GitHub</li>
                         </menu>
                         <h4>Review</h4>
                         <menu>
@@ -130,7 +130,7 @@ template.innerHTML = `
                 <li>
                     <h3>Coupons</h3>
                     <div>
-                        <button>Apply for Discounts</button>
+                        <button onclick="this.getRootNode().host.dispatch('coupon')">Apply for Discounts</button>
                         <h4>Inclusion & Diversity</h4>
                         <menu>
                             <li>Women & Minorities</li>

@@ -8,12 +8,12 @@ class SwMain extends HTMLElement {
     }
 
     connectedCallback() {
-        //this.shadowRoot.querySelector("slot").assignedElements().find(element => element.tagName === "SW-VOLUNTEER").style.display = "block";
+        //this.shadowRoot.querySelector("slot").assignedElements().find(element => element.tagName === "SW-CURRICULUM").render();
     }
 
-    render(component) {
+    render(component, course) {
         this.shadowRoot.querySelector("slot").assignedElements().forEach(element => element.style.display = "none");
-        this.shadowRoot.querySelector("slot").assignedElements().find(element => element.tagName === "SW-" + component.toUpperCase()).style.display = "block";
+        this.shadowRoot.querySelector("slot").assignedElements().find(element => element.tagName === "SW-" + component.toUpperCase()).render(course);
     }
 }
 

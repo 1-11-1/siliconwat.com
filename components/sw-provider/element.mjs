@@ -7,11 +7,11 @@ class SwProvider extends HTMLBodyElement {
     }
 
     connectedCallback() {  
-        this.addEventListener("sw", event => this.#reducer(event.detail.component));
+        this.addEventListener("sw", event => this.#reducer(event.detail));
     }
 
-    #reducer(component) {
-        this.#main.render(component);
+    #reducer({ component, course }) {
+        this.#main.render(component, course);
     }
 }
 

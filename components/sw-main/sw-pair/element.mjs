@@ -1,15 +1,15 @@
 import template from './template.mjs';
 
-class SwApply extends HTMLElement {
+class SwCode extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
 
-    connectedCallback() {
-        
+    render() {
+        this.style.display = 'block';
     }
 }
 
-customElements.define("sw-apply", SwApply);
+customElements.define("sw-code", SwCode);

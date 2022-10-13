@@ -11,8 +11,8 @@ class SwHeader extends HTMLElement {
         
     }
 
-    dispatch(component) {
-        this.dispatchEvent(new CustomEvent("sw", { bubbles: true, composed: true, detail: { component }}));
+    dispatch(component, course=null) {
+        this.dispatchEvent(new CustomEvent("sw", { bubbles: true, composed: true, detail: { component, course }}));
     }
 }
 

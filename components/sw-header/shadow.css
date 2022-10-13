@@ -95,8 +95,8 @@ menu li:hover {
 	cursor: pointer;
 }
 
-.not-ready {
-	opacity: 0.3;
+menu li:not([onclick]) {
+	opacity: 0.5;
 	cursor: default !important;
 }
 
