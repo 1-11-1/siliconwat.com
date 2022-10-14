@@ -10,8 +10,13 @@ template.innerHTML = `
     login with github?
     donate to get coupon!
     //
-    12-week full time
-    24-week part time
+    quarter system: 12-week full time
+    semester system: 24-week part time
+    // 
+    can study at home or on campus!
+    //
+    stick = fee + Deposits
+    carrot = sw coins 
 `;
 
 export default template;

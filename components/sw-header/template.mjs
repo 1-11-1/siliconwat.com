@@ -4,8 +4,8 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/sw-header/shadow.css">
     <header>
         <section>
-            <a href="index.html"><img src="siliconwat.png"></a>
-            <a href="index.html"><h1>Silicon Wat University</h1></a>
+            <a href="/"><img src="siliconwat.png"></a>
+            <a href="/"><h1>Silicon Wat University</h1></a>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -16,7 +16,7 @@ template.innerHTML = `
                 <li>
                     <h3>Frontend Course</h3>
                     <div>
-                        <a href="#frontend-cohort"><button>Join: Remote Cohort Program</button></a>
+                        <a href="#frontend-cohort"><button>Join: Remote Cohort Frontend Program</button></a>
                         <h4>Learn</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
@@ -34,6 +34,7 @@ template.innerHTML = `
                         <menu>
                             <li><a>Live Demo: Music Apps</a></li>
                             <li><a>Syntax Flashcards</a></li>
+                            <li><a>Group Chat & Discussion Boards</a></li>
                             <li><a>Students' Writings on Medium</a></li>
                             <li><a>Mock Interviews on YouTube</a></li>
                         </menu>
@@ -49,7 +50,7 @@ template.innerHTML = `
                 <li>
                     <h3>Backend Course</h3>
                     <div>
-                        <a href="#backend-cohort"><button>Join: Remote Cohort Program</button></a>
+                        <a href="#backend-cohort"><button>Join: Remote Cohort Backend Program</button></a>
                         <h4>Learn</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
@@ -67,6 +68,7 @@ template.innerHTML = `
                         <menu>
                             <li><a>Live Demo: Music Apps</a></li>
                             <li><a>Syntax Flashcards</a></li>
+                            <li><a>Group Chat & Discussion Boards</a></li>
                             <li><a>Students' Writings on Medium</a></li>
                             <li><a>Mock Interviews on YouTube</a></li>
                         </menu>
@@ -82,7 +84,7 @@ template.innerHTML = `
                 <li>
                     <h3>iOS Course</h3>
                     <div>
-                        <a href="#ios-cohort"><button>Join: Remote Cohort Program</button></a>
+                        <a href="#ios-cohort"><button>Join: Remote Cohort iOS Program</button></a>
                         <h4>Learn</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
@@ -100,6 +102,7 @@ template.innerHTML = `
                         <menu>
                             <li><a>Live Demo: Music Apps</a></li>
                             <li><a>Syntax Flashcards</a></li>
+                            <li><a>Group Chat & Discussion Boards</a></li>
                             <li><a>Students' Writings on Medium</a></li>
                             <li><a>Mock Interviews on YouTube</a></li>
                         </menu>
@@ -115,17 +118,23 @@ template.innerHTML = `
                 <li>
                     <h3>Graduation</h3>
                     <div>
-                        <button>Refund: Committment Deposits</button>
+                        <button>Silicon Wat Blockchain</button>
                         <h4>Awards</h4>
                         <menu>
-                            <li><a>Certificates of Completion</a></li>
+                            <li><a>Course Completion Certification</a></li>
                             <li><a>Graduation Diploma</a></li>
                         </menu>
-                        <h4>Apply</h4>
+                        <h4>Rewards</h4>
+                        <menu>
+                            <li><a>Committment Deposit Refund</a></li>
+                            <li><a>Course Completion Bonus</a></li>
+                            <li><a>Graduation Bonus</a></li>
+                        </menu>
+                        <h4>Benefits</h4>
                         <menu>
                             <li><a>Mock Technical Interviews</a></li>
                             <li><a>Work Bounties at THonly™</a></li>
-                            <li><a>Admission to Startup Incubator</a></li>
+                            <li><a>Startup Incubator Admission</a></li>
                         </menu>
                     </div>
                 </li>
